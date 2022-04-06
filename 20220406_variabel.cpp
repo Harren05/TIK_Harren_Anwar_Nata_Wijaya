@@ -19,7 +19,7 @@ int main()
         cout<<nama<<endl;// menampilkan variabel
         cout<<angka<<endl;
         cout<<a*b<<endl;
-        cout<<a*b + a/b<<endl;
+        cout<<a+b<<endl;
         //cout // untuk menampilkan apapun
 
 }//end of funnction 
