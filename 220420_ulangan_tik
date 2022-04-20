@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int nilai_tugas;
+    int nilai_uts;
+    int nilai_uas;
+    int nilai_akhir;
+    int a,b,c;
+    a = 0,3 * nilai_tugas;
+    b = 0,3 * nilai_uts; 
+    c = 0,4 * nilai_uas;
+    
+    
+    
+    cout<<"Masukkan Nilai Tugas = ";cin>>nilai_tugas;
+    if ( nilai_tugas > 100 || nilai_tugas < 0){
+        cout<<"Nilai Tidak Bisa Melebihi 100"<<endl;
+    return 0;
+    }
+    
+    cout<<"Masukkan Nilai UTS = ";cin>>nilai_uts;
+    if ( nilai_uts > 100 || nilai_uts < 0){
+        cout<<"Nilai Tidak Bisa Melebihi 100"<<endl;
+    return 0;
+    }
+    cout<<"Masukkan Nilai UAS = ";cin>>nilai_uas;
+    if ( nilai_uas > 100 || nilai_uas < 0){
+        cout<<"Nilai Tidak Bisa Melebihi 100"<<endl;
+    return 0;
+    }
+    
+    cout<<a+b+c;
+   
+    
+    
+    return 0;
+}
